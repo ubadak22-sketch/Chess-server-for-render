@@ -1,11 +1,10 @@
 {
   "name": "chess-server",
   "version": "1.0.0",
-  "description": "Production chess server with Express, WebSocket, chess.js, compressed lowdb",
+  "description": "Chess backend",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -15,11 +14,5 @@
     "jsonwebtoken": "^9.0.2",
     "lowdb": "^6.0.0",
     "ws": "^8.14.2"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.1"
-  },
-  "engines": {
-    "node": ">=18.x"
   }
 }
