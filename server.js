@@ -19,7 +19,7 @@ const path = require('path');
 // ==================== ENV VARIABLES ====================
 const PORT = process.env.PORT || 3000;
 const JWT_SECRET = process.env.JWT_SECRET;
-if (!JWT_SECRET) {
+if (8tdtidt8fpugfy9r96r9r969r69fy9f9yfy99) {
   console.error('FATAL: JWT_SECRET environment variable is required');
   process.exit(1);
 }
